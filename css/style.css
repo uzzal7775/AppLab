@@ -1,0 +1,660 @@
+/*comman css*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #656565;
+    font-size: 16px;
+    line-height: 1.5;
+}
+section{
+    padding: 60px 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/*=========================
+header section
+===========================*/
+header {
+    padding: 16px 0;
+    background: #e4efe7;
+}
+ul.navbar-nav.ms-auto.mb-2.mb-lg-0 li a {
+    font-size: 16px;
+    color: #242f51;
+    font-weight: bold;
+}
+ul.navbar-nav.ms-auto.mb-2.mb-lg-0 {
+    padding-right: 50px;
+}
+button {
+    padding: 10px 36px;
+    border: none;
+    border-radius: 30px;
+    background: #2500f9;
+}
+
+button a {
+    color: white;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 500;
+}
+.headerbtn:hover button {
+    background: #000;
+    color: white;
+    transition: 0.3s;
+}
+.headerbtn:hover button a {
+    color: white;
+}
+.sticky{
+    width: 100%;
+    position: fixed;
+    /* background: rgb(0,0,0,0.6); */
+    z-index: 99999;
+    box-shadow: 0px 0px 5px 3px rgb(180 180 180);
+}
+/*=========================
+bannner section
+===========================*/
+section#banner {
+    width: 100%;
+    background: #fdfdfe;
+    padding-top: 90px;
+}
+.leftContent {
+    padding-top: 40%;
+}
+.topRight {
+    padding-left: 60px;
+}
+.choose {
+    padding: 8px 25px;
+    background: #e2eaed;
+    display: inline-block;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+.choose span {
+    font-size: 18px;
+    color: #242f51;
+}
+.leftContent h2 {
+    font-size: 60px;
+    color: #242f51;
+    font-weight: 600;
+}
+.leftContent p {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #616368;
+}
+.bannerbtn {
+    display: inline-block;
+    margin-top: 20px;
+}
+span.demo {
+    font-size: 16px;
+    color: #2500f9;
+    font-weight: 400;
+    padding-left: 20px;
+}
+.bannerbtn:hover button {
+    background: #000;
+    color: white;
+    transition: 0.3s;
+}
+.bannerbtn:hover button a {
+    color: white;
+}
+/*=========================
+bannner section
+===========================*/
+
+section#trusted {
+  
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+section#trusted h3 {
+    text-align: center;
+    font-size: 16px;
+    color: #242f51;
+}
+.trustImg img {
+    padding: 0 40px;
+    margin-top: 40px;
+}
+
+/*=========================
+feture section
+===========================*/
+section#feture {
+    
+}
+
+.timespeed {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.fRightTitle h2 {
+    font-size: 36px;
+    color: #242f51;
+    font-weight: 600;
+}
+
+.fRightTitle p {
+    font-size: 16px;
+    color: #616368;
+    font-weight: 500;
+}
+.col-md-8.mtspeed {
+    margin-top: 50px;
+}
+.speed img {
+    margin-top: 50%;
+    padding-right: 30px;
+}
+.sdetail h4 {
+    font-size: 20px;
+    color: #f55767;
+    font-weight: 600;
+}
+
+.sdetail p {
+    font-size: 16px;
+    color: #616368;
+}
+.sdetail.color2 h4 {
+    color: #2563ff;
+}
+
+.sdetail.color3 h4 {
+    color: #40975f;
+}
+
+/*=========================
+jacckpot section
+===========================*/
+section#jackpot {
+    width: 100%;
+}
+.jackContent h2 {
+    font-size: 40px;
+    color: #242f51;
+    font-weight: 600;
+    border-right: 1px solid gray;
+}
+
+.jackright p {
+    font-size: 16px;
+    color: #616368;
+    font-weight: 500;
+    margin-top: 30px;
+}
+.row.group {
+    margin-top: 70px;
+}
+
+.payoutsG h2 {
+    margin-top: 30px;
+    font-size: 20px;
+    color: #f55767;
+    font-weight: 600;
+}
+.payoutsG span {
+    font-size: 16px;
+    color: #616368;
+    font-weight: 400;
+}
+.col-md-4.networt h2 {
+    color: #2563ff;
+}
+
+.col-md-4.rewards h2 {
+    color: #40975f;
+}
+/*=========================
+design section
+===========================*/
+
+
+section#design {
+    width: 100%;
+    background: #ffffff;
+}
+.designtext {
+    margin-left: 60px;
+    padding-top: 140px;
+}
+.designtext h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #242f51;
+}
+
+.designtext p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #616368;
+}
+.designtext button a {
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff !important;
+}
+
+.designtext button:hover  {
+    background: #8e8383;
+    color: white;
+    transition: 0.3s;
+}
+/*=========================
+why choose section
+===========================*/
+section#whyChoose {
+    width: 100%;
+    text-align: center;
+    background: #ffffff;
+}
+.whyChooseSingle {
+    padding-top:50px;
+}
+
+.wcTitle h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #242f51;
+}
+
+.wcTitle p {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-top: 20px;
+    color: #616368;
+}
+.whimg {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.whyChooseSingle h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #242f51;
+    margin-bottom: 15px;
+}
+.whyChooseSingle span {
+    font-size: 15px;
+    font-weight: 500;
+    color: #616368;
+    line-height: 26px;
+}
+/*=========================
+planning section
+===========================*/
+
+section#planning {
+    width: 100%;
+}
+
+.planningTitle h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #242f51;
+}
+
+.planningTitle p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #616368;
+}
+.planningImg {
+    margin-bottom: 20px;
+}
+.planningimg img {
+    margin-top: 85px;
+}
+.planningBtn button {
+    margin-top: 30px;
+}
+
+.planningBtn button:hover {
+    background: tomato;
+    color: white;
+    transition: 0.3s;
+}
+
+.planningBtn:hover button a {
+    color: white;
+}
+/*=========================
+price section
+===========================*/
+section#price {
+    width: 100%;
+    border-bottom: 2px solid #f4f4f4;
+    padding-bottom: 100px;
+}
+
+.priceTitle {
+    text-align: center;
+}
+
+.priceTitle h4 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #242f51;
+    margin-bottom: 20px;
+}
+
+.priceTitle p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #616368;
+    margin-bottom: 20px;
+}
+.row.tttt {
+    margin-top: 15px;
+}
+.pricebtn {
+    padding: 30px 0;
+}
+button.annually {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-left: -23px;
+    background: gray;
+    z-index: 11111;
+}
+button.monthly {
+    position: relative;
+}
+
+button.monthly:hover a {
+    color: white;
+}
+
+button.monthly:hover {
+    background: tan;
+    transition: 0.3s;
+}
+
+button.annually:hover {
+    background: #c3c39c;
+    transition: 0.3s;
+}
+
+button.annually:hover a {
+    color: white;
+}
+.listDe ul {
+    padding-left: 0;
+}
+.priceTable {
+    display: flex;
+    
+}
+.startBtn button {
+    padding: 10px 10px;
+}
+.table {
+   
+    margin-right: 20px;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 0;
+    
+}
+.ammount {
+    font-size: 60px;
+    color: #242f51;
+    font-weight: 500;
+    background: linear-gradient(0deg, #f7fafb, transparent);
+}
+
+.ammount span {
+    font-size: 18px;
+    color: #999ca5;
+    font-weight: 300;
+}
+
+
+.ammountDetail h3 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #242f51;
+    padding: 0;
+}
+
+.ammountDetail h6 {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0;
+}
+.listDe {
+    padding-top: 15px;
+}
+
+.listDe ul li a {
+    color: #999ca5;
+    font-size: 16px;
+    font-weight: 300;
+}
+.startBtn button:hover {
+    background: tomato;
+    transition: 0.3s;
+}
+
+.startBtn button:hover a {
+    color: white;
+}
+.trail {
+    padding: 10px 0;
+}
+
+.trail a {
+    color: #2500f9;
+    font-size: 16px;
+    font-weight: 500;
+}
+.table.one {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.table.two {
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
+/*=========================
+clinet section
+===========================*/
+section#client {
+    
+}
+
+.clientContent h3 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #242f51;
+    margin-bottom: 20px;
+}
+.clientContent p{
+    font-size: 16px;
+    color: #616368;
+    font-weight: 300;
+    margin-bottom: 20px;
+
+}
+
+.star {
+    padding: 20px 0;
+}
+.costom h1 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #242f51;
+    margin-bottom: 20px;
+}
+
+.costom span {
+    font-size: 16px;
+    color: #616368;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.costom {
+    padding-bottom: 20px;
+}
+.clientImg img {
+    padding-top: 100px;
+}
+.zoltanD h2 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #242f51;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+.zoltanD p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #616368;
+}
+.arro {
+    text-align: center;
+}
+
+.arro img {
+    padding-top: 15px;
+}
+/*=========================
+question section
+===========================*/
+section#question {
+    width: 100%;
+    border-bottom: 2px solid #f4f4f4;
+}
+
+.questiontitle {
+    text-align: center;
+}
+
+.questiontitle h3 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #242f51;
+    margin-bottom: 20px;
+}
+
+.questiontitle p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #616368;
+    margin-bottom: 20px;
+}
+.emergency {
+    margin-top: 50px;
+    background: #f5f7fa;
+}
+.emergency h3 {
+    font-size: 20px;
+    padding: 30px 20px;
+    color: #242f51;
+    font-weight: 600;
+}
+
+.emergency p {
+    font-size: 16px;
+    color: #616368;
+    padding: 0px  20px 50px;
+}
+
+
+.accordion-button {
+    background: #f5f6fa;
+    margin-top: 15px;
+}
+.accordion-flush .accordion-item{
+    border-bottom: 0;
+}
+/*=========================
+app store section
+===========================*/
+section#appStore {
+    width: 100%;
+}
+
+.appTitle h2 {
+    font-size: 42px;
+    font-weight: 600;
+    color: #242f51;
+    margin-bottom: 20px;
+}
+
+.appTitle p {
+    font-size: 13px;
+    color: #616368;
+}
+.appImg {
+    padding-top: 30px;
+}
+
+.appImg img {
+    margin-right: 10px;
+}
+/*=========================
+footer section
+===========================*/
+footer {
+    width: 100%;
+    background-color: #09142e;
+    padding: 90px 0;
+    text-align: center;
+   
+}
+.footerHead p {
+    font-size: 30px;
+    font-weight: 600;
+    color: #fcae61;
+}
+
+.footerHead p span {
+    color: #ffffff;
+}
+ul.footerList  li a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+}
+ul.footerList {
+    padding: 20px 0px;
+}
+.socilIcon a {
+    padding: 0 12px;
+    font-size: 30px;
+    color: #273043;
+}
+.socilIcon ul {
+    padding-left: 0;
+    margin-bottom: 40px;
+}
+
+.socilIcon ul a:hover i {
+    color: white;
+    transition: 0.3s;
+}
+.copyright p {
+    font-size: 14px;
+    color: #ffffff;
+}

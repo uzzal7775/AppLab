@@ -1,0 +1,309 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+
+
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+
+
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  section{
+    padding: 0 0;
+  }
+  
+ul.navbar-nav.ms-auto.mb-2.mb-lg-0 {
+    line-height: 15px;
+    text-align: center;
+    padding-right: 0;
+}
+ul.navbar-nav.ms-auto.mb-2.mb-lg-0 li a {
+    font-weight: 500;
+    /*color: #fff;*/
+}
+.headerbtn{
+  text-align: center;
+}
+.headerbtn button {
+    padding: 10px 23px;
+}
+.headerbtn button a {
+  font-weight: 500;
+}
+section#banner {
+  padding-top: 0;
+  text-align: center;
+}
+.leftContent {
+    padding-top: 10%;
+}
+.leftContent h2{
+  font-size: 30px;
+  font-weight: 600;
+  padding-top: 10px;
+}
+.leftContent p{
+  font-size: 14px;
+}
+span.demo{
+  font-size: 16px;
+  padding-left: 7px;
+}
+.topRight {
+    padding-left: 12px;
+    padding-top: 20px;
+}
+.fRightTitle {
+    text-align: center;
+}
+.fRightTitle h2{
+  font-size: 30px;
+}
+.fRightTitle p{
+  font-size: 12px;
+}
+.col-md-8.mtspeed {
+margin-top: 25px;
+}
+.timespeed{
+  text-align: center;
+  display: block;
+}
+.speed img {
+    margin-top: 0;
+    padding-right: 0;
+    margin-bottom: 20px;
+}
+.sdetail p{
+  font-size: 14px;
+}
+section#jackpot{
+  text-align: center;
+}
+.jackContent h2 {
+    font-size: 25px;
+    border-right: 0;
+    margin-bottom: 20px;
+}
+
+.jackContent {
+    border-bottom: 1px solid gray;
+}
+.jackright p {
+    font-size: 13px;
+    margin: 20px 0;
+}
+.row.group {
+    margin-top: 0px;
+}
+.payoutsG {
+    padding-top: 20px;
+}
+.payoutsG span {
+    font-size: 14px;
+}
+section#design{
+  padding-top: 40px;
+}
+.designtext {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left: 0;
+    text-align: center;
+}
+.designtext h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.designtext p {
+    font-size: 13px;
+    margin-bottom: 0;
+    margin: 20px 0;
+}
+.wcTitle h2{
+  font-size: 25px;
+}
+.wcTitle p{
+  font-size: 14px;
+  font-weight: 400;
+}
+.whyChooseSingle span{
+  font-size: 14px;
+  line-height: 24px;
+}
+section#planning {
+    padding: 40px 0;
+    text-align: center;
+}
+.planningTitle h2{
+  font-size: 27px;
+}
+.planningTitle p {
+    font-size: 13px;
+    margin-top: 20px;
+}
+.whyChooseSingle {
+    padding-top: 30px;
+}
+.planningBtn button {
+    margin-top: 20px;
+}
+.planningimg img {
+    margin-top: 35px;
+}
+section#price{
+  padding-bottom: 40px;
+}
+.priceTitle h4 {
+    margin-top: 20px;
+    font-size: 22px;
+}
+.priceTitle p {
+    font-size: 14px;
+}
+.ammount {
+    font-size: 35px;
+}
+.ammount span {
+    font-size: 10px;
+}
+
+.priceTable{
+  flex-wrap: wrap;
+}
+.table{
+  margin-right: 0;
+}
+.listDe{
+  padding-bottom: 20px;
+}
+.startBtn {
+    padding: 20px 0;
+}
+section#client {
+   padding: 40px 0; 
+}
+.clientImg img {
+  padding: 40px 0;
+}
+.clinetDetailes {
+    text-align: center;
+    padding: 35px 0;
+}
+.clientContent h3 {
+    font-size: 25px;
+}
+
+.clientContent p {
+    font-size: 15px;
+}
+.costom h1{
+  font-size: 25px;
+}
+.costom span{
+  font-size: 14px;
+}
+section#question{
+  padding-bottom: 40px;
+}
+.questiontitle h3{
+  font-size: 30px;
+}
+.questiontitle p {
+    font-size: 14px;
+}
+.emergency{
+  margin-top: 20px;
+  text-align: center;
+}
+.emergency h3{
+  padding: 20px 10px;
+  font-size: 25px;
+}
+.emergency p{
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+.appTitle {
+    text-align: center;
+    padding-top: 20px;
+}
+.appTitle h2{
+  font-size: 25px;
+  margin-top: 20px;
+}
+.appTitle p {
+    font-size: 16px;
+}
+footer{
+  padding: 30px 0;
+}
+.nav{
+  flex-direction: column;
+}
+.copyright p{
+  font-size: 10px;
+}
+.socilIcon ul{
+  margin-bottom: 20px;
+}
+.socilIcon a{
+  font-size: 20px;
+}
+
+}
